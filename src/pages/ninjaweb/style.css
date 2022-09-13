@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+#web-sec {
+  margin: 5% 0;
+}
+
+#web-sec p {
+  font-family: Mitr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.hrr {
+  background: linear-gradient(to right, #4d81ba, #1cd0ab);
+  width: 100%;
+  border: 0px solid;
+  position: relative;
+  padding: 1px;
+}
+#web-sec {
+  height: auto;
+}
+#web-sec iframe {
+  position: relative;
+  background: linear-gradient(to right, #1cd0ab, #920bc3);
+  padding: 3px;
+  border: 0px solid red;
+}

@@ -1,0 +1,54 @@
+#home-sec .ninja-des {
+  margin-top: 40px;
+}
+
+#home-sec p {
+  font-family: Arial;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: justify;
+  margin: 37px auto;
+}
+
+#home-sec video {
+  object-fit: cover;
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#home-sec .navigation-btn {
+  background: linear-gradient(180deg, #1cd0ab 0%, #4d81ba 100%);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  width: 122px;
+  padding: 0.5rem;
+  border-radius: 0;
+  box-shadow: 0px 0px 5px #1cd0ab;
+}
+
+.main-wrapper > div:first-child {
+  height: 100% !important;
+  min-height: auto !important;
+}
+
+.roading-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 990px) {
+  .lFccD .container .logo-container {
+    margin-right: 0 !important;
+  }
+}

@@ -1,0 +1,189 @@
+.media-image {
+  margin-left: 5%;
+  margin-top: 10vh;
+  width: 244px;
+  height: 65px;
+}
+
+.media-container {
+  width: 90%;
+}
+
+.media-mobile-container {
+  display: none;
+}
+
+.slider-show {
+  width: 400px;
+  z-index: 5;
+}
+
+.slider-letter-screenshot {
+  font-family: "BankGothicMedium";
+  font-size: 18px;
+  color: white;
+  padding: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.slider-letter-screenshot::after {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: -125px;
+  background-image: url("../../../../resources/images/shuriken-black.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.game-video-circle::after {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: -102px;
+  background-image: url("../../../../resources/images/shuriken-black.png");
+  background-size: cover;
+}
+
+.media-image-border {
+  border: 5px solid white;
+  background-color: white;
+}
+
+.media-game-image {
+  width: 100%;
+  height: 100%;
+  padding: 6px 0px 2px;
+  border-radius: 8px;
+}
+
+.game-image-container {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.slick-slider {
+  background-color: rgb(68, 65, 66);
+  border-radius: 8px;
+}
+
+.slick-prev::before {
+  content: "" !important;
+}
+
+.slick-next::before {
+  content: "" !important;
+}
+
+.day-night-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.clippath-left {
+  -webkit-clip-path: polygon(100% 45%, 0 38%, 0 52%);
+  clip-path: polygon(100% 45%, 0 38%, 0 52%);
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.clippath-right {
+  -webkit-clip-path: polygon(0% 45%, 100% 38%, 100% 52%);
+  clip-path: polygon(0% 45%, 100% 38%, 100% 52%);
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.media-select-image {
+  width: 100%;
+  height: 100%;
+}
+
+.media-container-center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#lightbox-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.full-image-button {
+  border: none;
+  font-size: 8px;
+  background-color: transparent !important;
+  position: absolute;
+}
+
+#lightbox {
+  z-index: 5;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .slider-show {
+    width: 350px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slider-show {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .media-image {
+    width: 180px;
+    height: 50px;
+    margin-left: 0%;
+    margin-top: 10px;
+  }
+  .image-container {
+    text-align: center;
+  }
+  .media-mobile-container {
+    display: block;
+  }
+  .media-container {
+    display: none;
+  }
+  .slider-show {
+    margin-left: 0px;
+  }
+  .slider-show {
+    width: 250px;
+  }
+  .day-night-container {
+    margin-bottom: 0px;
+  }
+  .game-video-circle::after {
+    margin-top: 22px;
+  }
+}

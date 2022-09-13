@@ -1,0 +1,321 @@
+.contact-container {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../resources/modern-background-min.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-box {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 854px;
+  height: 526px;
+  margin: 80px auto;
+  border-radius: 30px;
+  background: linear-gradient(
+    0deg,
+    rgba(49, 36, 215, 0.4),
+    rgba(49, 36, 215, 0.4)
+  );
+}
+
+.form-text-box {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-title {
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-lb {
+  display: block;
+}
+
+.form-lb > input {
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: black;
+  width: 330px;
+  height: 60px;
+  padding: 15px;
+  background: #fffbfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  color: #767474;
+  opacity: 1; /* Firefox */
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #767474;
+  font-weight: 300;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #767474;
+  font-weight: 300;
+}
+
+.form-textarea > textarea {
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: black;
+  padding: 15px;
+  width: 330px;
+  height: 111px;
+  background: #fffbfb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  outline: none;
+  resize: none;
+  border: none;
+}
+
+.submit-box {
+  width: 122px;
+  height: 45px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(180deg, #524bba 0%, #4d81ba 100%);
+  margin-top: 10px;
+}
+
+.submit-box-expired {
+  width: 122px;
+  height: 45px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(180deg, #ffffff 0%, #504c4c 100%);
+  margin-top: 10px;
+}
+
+.form-submit {
+  font-family: Prompt;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: contents;
+  cursor: pointer;
+}
+
+.box-text {
+  width: 353px;
+  height: 114px;
+
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 57px;
+  margin-bottom: 32px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-box-submit {
+  width: 183px;
+  height: 38px;
+  background: linear-gradient(180deg, #0080ff 0%, #5250ba 100%);
+  box-shadow: inset 7px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.text-box-sub:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.text-box-sub {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: contents;
+}
+
+.midline {
+  display: block;
+  border: 1px solid #46464699;
+  height: 100%;
+  transform: rotate(-1deg);
+  margin: 0px 40px 0 30px;
+}
+
+.discord-image {
+  position: absolute;
+  right: -100px;
+  top: -90px;
+}
+
+.discord-image > img {
+  width: 100%;
+}
+
+.captcha {
+  transform: scale(0.9);
+  transform-origin: 0 0;
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container-box {
+    width: 92% !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 319px) {
+  .container-box {
+    top: 45% !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1750px) {
+  .container-box {
+    top: 47% !important;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 1400px) {
+  .form-container input {
+    height: 40px;
+    width: 81% !important;
+    margin-left: 33px;
+  }
+
+  .form-container .form-text {
+    height: 70px;
+    width: 81% !important;
+    margin-left: 33px;
+  }
+
+  .box-text {
+    font-size: 20px;
+    width: 250px;
+  }
+  .discord-image {
+    right: -47px;
+    top: -93px;
+  }
+  .discord-image .discord-img {
+    width: 200px;
+  }
+
+  .form-title {
+    font-size: 25px;
+    margin-left: 33px;
+    margin-top: 10px;
+  }
+
+  .submit-box-expired,
+  .submit-box {
+    width: 105px;
+    height: 35px;
+    margin-left: 33px;
+  }
+  .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: 0 0;
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .button-box {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .midline {
+    display: none;
+  }
+
+  .form-box {
+    order: 2;
+  }
+
+  .form-text-box {
+    order: 1;
+  }
+
+  .form-container {
+    flex-direction: column;
+    padding-bottom: 35px;
+  }
+
+  .container-box {
+    width: 65%;
+    height: auto;
+    top: 40%;
+  }
+}

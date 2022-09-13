@@ -1,0 +1,26 @@
+.vision .overly-img {
+  position: relative;
+  background: linear-gradient(to right, #1cd0ab, #920bc3);
+  padding: 3px;
+  border: 0px solid red;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.vision-box {
+  max-width: 1600px;
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+
+.vision-text-box {
+  min-width: 250px;
+  height: fit-content;
+}
+@media (min-width: 980px) and (max-width: 1360px){
+.ninja-vision-last{
+  margin-top: -120px !important;
+}
+}

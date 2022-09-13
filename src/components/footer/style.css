@@ -1,0 +1,36 @@
+#b-footer {
+  background: black;
+  padding: 15px 0px;
+}
+
+#b-footer p {
+  color: #ffffff;
+}
+
+#b-footer ul {
+  list-style-type: none;
+  margin: 0px;
+}
+a:hover {
+  text-decoration: none !important;
+}
+#b-footer ul li {
+  margin-left: 10px;
+}
+.m-0 {
+  font-family: "GothamFontBold";
+}
+@media (max-width: 767px) {
+  #b-footer p {
+    text-align: center;
+    margin-bottom: 15px !important;
+  }
+
+  #b-footer ul {
+    justify-content: start !important;
+  }
+
+  .justify-content-end {
+    padding-bottom: 10px;
+  }
+}
